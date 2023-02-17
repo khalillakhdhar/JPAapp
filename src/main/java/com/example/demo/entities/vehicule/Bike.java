@@ -5,7 +5,7 @@ import lombok.Data;
 
 @Entity
 @Data
-public class Bike extends Transportation {
+public class Bike extends Passenger {
 private int saddleheight;
 
 

@@ -5,6 +5,6 @@ import lombok.Data;
 
 @Entity
 @Data
-public class Car extends Transportation {
+public class Car extends Passenger {
 private int noOfdoors;
 }

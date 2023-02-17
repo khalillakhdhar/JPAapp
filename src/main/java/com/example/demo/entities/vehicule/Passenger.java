@@ -5,7 +5,7 @@ import lombok.Data;
 
 @MappedSuperclass
 @Data
-public class Passenger extends Vehicule {
+public abstract class Passenger extends Vehicule {
 int noOfPassenger;
 
 }
